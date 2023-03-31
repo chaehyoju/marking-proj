@@ -1,10 +1,13 @@
 <template>
-  <header></header>
-  <router-view></router-view>
-  <footer></footer>
+<router-view />
 </template>
 
+<style lang="postcss">
+body {
+  @apply text-gray-900;
+}
+</style>
+
 <script setup>
-import header from './components/header.vue';
-import footer from './components/footer.vue';
+// https://vuejs.org/api/sfc-script-setup.html#script-setup
 </script>

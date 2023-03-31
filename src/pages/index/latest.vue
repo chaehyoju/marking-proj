@@ -112,11 +112,9 @@
 <script setup>
 // ref, reactive 어느 것을 사용해도 상관은 없겠습니다만, reactive가 Vue 3에서는 조금 더 오버헤드가 적은 방식입니다.
 import { reactive, onMounted } from "vue";
-import pagination from "@/components/pagination.vue";
 // axios를 쓰지 않고 async-await, fetch API만 사용해도 무방합니다. 취향 차이인 것 같습니다.
 import axios from "axios";
 
-const apiURL = import.meta.env.VITE_API_URL;
 
 const state = reactive({
   category: "help",

@@ -115,7 +115,6 @@ import { reactive, onMounted } from "vue";
 // axios를 쓰지 않고 async-await, fetch API만 사용해도 무방합니다. 취향 차이인 것 같습니다.
 import axios from "axios";
 
-const apiURL = import.meta.env.VITE_API_URL;
 
 const state = reactive({
   category: "help",

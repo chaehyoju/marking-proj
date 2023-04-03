@@ -1,7 +1,7 @@
 <template>
     <section class="container max-w=[360px] py-32">
         <h1 class="text-3xl font-bold text-center">회원가입</h1>
-        <div class="content-center">
+        <div class="w-40 m-auto">
             <h2>{{ state.name }} 환영해요!</h2>
             <label class="block text-gray-700 text-sm font-bold mb-2" for="email">이메일<span class="text-red-500">*</span></label>
             <input type="email" id="email" class="shadow appearance-none border rounded w-200 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"><br>

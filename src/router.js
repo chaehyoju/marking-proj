@@ -1,12 +1,16 @@
 import { createWebHistory, createRouter } from "vue-router";
 // 자주 호출되는 페이지가 아니라면 lazy loading으로 바꿔주는 것이 초기 로딩 데이터 양을 줄이는 데 효과가 있을 것입니다.
 import IndexLayout from "@/layouts/index.vue";
+import Index from "@/pages/index.vue";
 
 
 const routes = [
   {
     path: "/",
     component: IndexLayout,
+    children: [
+      { path: "", component: Index },
+    ]
   },
 ];
 

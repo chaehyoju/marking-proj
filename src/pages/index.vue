@@ -1,6 +1,6 @@
 <template>
     <section><bannerSection></bannerSection></section>
-    <section class="container py-8"><specialSection></specialSection></section>
+    <section class="container py-32"><specialSection></specialSection></section>
     <section class="container py-8"><moreSection></moreSection></section>
     <section class="container py-16"><monthSection></monthSection></section>
     <section class="container py-12"><storeSection></storeSection></section>

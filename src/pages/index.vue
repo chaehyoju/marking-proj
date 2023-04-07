@@ -1,5 +1,5 @@
 <template>
-    <section class="container py-16"><bannerSection></bannerSection></section>
+    <section><bannerSection></bannerSection></section>
     <section class="container py-8"><specialSection></specialSection></section>
     <section class="container py-8"><moreSection></moreSection></section>
     <section class="container py-16"><monthSection></monthSection></section>

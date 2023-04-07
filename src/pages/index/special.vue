@@ -1,5 +1,8 @@
 <template>
-    <img src="@/assets/cat.png" />
+    <div>
+        특별한 날을 완성시키는 가장 쉬운 방법
+    </div>
+    <img src="@/assets/liquor.png" />
 </template>
 
 <script setup>

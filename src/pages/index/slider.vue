@@ -1,5 +1,7 @@
 <template>
-    <img src="@/assets/cat.png" />
+    최근 담화, 함께 볼까요?<br>
+    슬라이드 넣기
+    
 </template>
 
 <script setup>

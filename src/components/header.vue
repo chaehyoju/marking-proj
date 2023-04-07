@@ -30,7 +30,7 @@
         <a href="#">스토어</a>
       </nav>
       <nav>
-          <router-link to="/signup">회원가입</router-link>/<a href="#">로그인</a>
+          <router-link to="/signup">회원가입</router-link>/<router-link to="/login">로그인</router-link>
       </nav>
     </div>
   </header>

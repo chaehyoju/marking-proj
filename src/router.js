@@ -5,6 +5,7 @@ import Index from "@/pages/index.vue";
 
 //회원
 import SignUp from "@/pages/signup.vue";
+import Login from "@/pages/login.vue";
 
 
 const routes = [
@@ -14,6 +15,7 @@ const routes = [
     children: [
       { path: "", component: Index },
       { path: "signup", component: SignUp},
+      { path: "login", component: Login},
     ]
   },
 ];

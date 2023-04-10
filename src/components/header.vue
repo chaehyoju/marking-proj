@@ -29,8 +29,8 @@
         <a href="#">구독</a>
         <a href="#">스토어</a>
       </nav>
-      <nav>
-          <router-link to="/signup">회원가입</router-link>/<router-link to="/login">로그인</router-link>
+      <nav class="flex-grow flex">
+          <router-link to="/signup">회원가입</router-link>/<router-link class="mr-2" to="/login">로그인</router-link><router-link to="#"><img src="@/assets/4781813_bag_buy_cart_market_shop_icon.png" style="width: 20px;"></router-link>
       </nav>
     </div>
   </header>

@@ -8,7 +8,7 @@
     <div class="flex justify-center mt-6">
         <img src="@/assets/liquor.png" style="width: 130px; height: 130px;" />
     </div>
-    <hr class="h-0.2 w-28 mx-auto bg-black rounded mt-32">
+    <!-- <hr class="h-0.2 w-28 mx-auto bg-black rounded mt-32"> -->
 </template>
 
 <script setup>
